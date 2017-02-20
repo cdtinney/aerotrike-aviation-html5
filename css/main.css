@@ -1,0 +1,68 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#home__jumbotron {
+	background: url("../img/jumbotron.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+#home__jumbotron h1 {
+	color: rgba(255, 255, 255, 0.95);
+}
+
+.gift-cert-package .panel-title {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.gift-cert-package .buy-now {
+  float: right;
+  padding-left: 15px;	
+}
+
+.used-sale ul {
+  display: inline-block;
+}
+
+.used-sale img {
+  float: right;
+}
+
+.authorized-manufacturer {
+  height: 120px;
+}
+
+.authorized-manufacturer .panel-body {
+  padding: 5px;
+
+}
+
+.authorized-manufacturer .logo {
+  max-height: 90px;
+
+  /* Center align, horizontally */
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
