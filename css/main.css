@@ -4,6 +4,11 @@
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+  font-family: 'Elron Monospace';
+  src: url('../fonts/Elronmonospace.ttf');
+}
+
 h1, h2, h3, h4, h5, .navbar {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
 }
@@ -17,7 +22,9 @@ h3, h5 {
 }
 
 .navbar .navbar-brand {
+  font-family: 'Elron Monospace', Helvetica, Arial, sans-serif;
   font-weight: bold;
+  font-size: 22px;
 }
 
 p, .body-font {
