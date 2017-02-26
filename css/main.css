@@ -5,8 +5,8 @@
    ========================================================================== */
 
 @font-face {
-  font-family: 'Elron Monospace';
-  src: url('../fonts/Elronmonospace.ttf');
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Regular.ttf');
 }
 
 h1, h2, h3, h4, h5, .navbar {
@@ -22,7 +22,7 @@ h3, h5 {
 }
 
 .navbar .navbar-brand {
-  font-family: 'Elron Monospace', Helvetica, Arial, sans-serif;
+  font-family: 'Sansation', Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22px;
 }
