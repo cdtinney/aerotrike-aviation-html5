@@ -4,8 +4,34 @@
    Author's custom styles
    ========================================================================== */
 
-html {
-	font-family: 'Open Sans', sans-serif;
+h1, h2, h3, h4, h5, .navbar {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+h3, h5 {
+  font-weight: bold;
+}
+
+.navbar {
+  font-size: 16px;
+}
+
+p, .body-font {
+  font-family: 'Crimson Text', Georgia, Times, serif;
+  font-size: 16px;
+}
+
+footer .contact-info-container {
+  vertical-align: top;
+}
+
+footer .contact-info-container, footer .contact-info-container > h5 {
+  display: inline-block;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 0;
 }
 
 #home__jumbotron {
@@ -15,6 +41,10 @@ html {
 
 #home__jumbotron h1 {
 	color: rgba(255, 255, 255, 0.95);
+}
+
+#home__jumbotron p {
+  color: white;
 }
 
 .gift-cert-package .panel-title {
@@ -32,20 +62,30 @@ html {
 }
 
 .used-sale img {
-  float: right;
+  float: left;
+  max-width: 256px;
+}
+
+@media(max-width: 500px) {
+
+  .used-sale img {
+    max-width: 128px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
 }
 
 .authorized-manufacturer {
-  height: 120px;
-}
-
-.authorized-manufacturer .panel-body {
-  padding: 5px;
-
+  height: 90px;
+  padding: 10px;
 }
 
 .authorized-manufacturer .logo {
-  max-height: 90px;
+  max-width: 100%;
+  max-height: 80px;
 
   /* Center align, horizontally */
   display: block;
@@ -54,7 +94,50 @@ html {
 
 }
 
+@media(max-width: 320px) {
 
+  #map-embed-sm {
+    display: none;
+  }
+
+  /* Save some space by removing the horizontal line separator. */
+  hr {
+    display: none;
+  }
+
+}
+
+@media(min-width: 321px) {
+
+  #map-embed-xs {
+    display: none;
+  }
+
+}
+
+@media(max-width: 990px) {
+
+  #map-embed-lg {
+    display: none;
+  }
+
+  .map-embed {
+    padding: 10px 20px;
+  }
+
+}
+
+@media(min-width: 990px) {
+
+  #map-embed-sm {
+    display: none;
+  }
+
+  .map-embed {
+    padding: 20px;
+  }
+
+}
 
 
 
