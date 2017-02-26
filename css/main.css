@@ -27,6 +27,61 @@ h3, h5 {
   font-size: 22px;
 }
 
+@media(max-width: 320px) {
+
+  .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+}
+
+/* Increases navbar collapse width from 768px to 991px */
+@media(max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+@media(max-width: 991px) {
+
+  #navbar .nav #home {
+    display: none;
+  }
+
+}
+
 p, .body-font {
   font-family: 'Crimson Text', Georgia, Times, serif;
   font-size: 16px;
