@@ -29,10 +29,10 @@
 
     .jumbotron__image-container {
       position: absolute;
+      top: 250px;
+      right: 50px;
       width: 400px;
       max-width: 95%;
-      right: 3%;
-      top: 18%;
     }
 
     .jumbotron__image {
@@ -42,7 +42,24 @@
 
     @media (max-width: 550px) {
       .jumbotron__image-container {
-        top: 35%;
+        top: 280px;
+        width: 300px;
+      }
+    }
+
+    @media (max-width: 475px) {
+      .jumbotron__image-container {
+        top: 350px;
+        right: 25px;
+        width: 280px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .jumbotron__image-container {
+        top: 400px;
+        right: 25px;
+        width: 280px;
       }
     }
   </style>
