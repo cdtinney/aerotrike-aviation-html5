@@ -1,5 +1,7 @@
 import React from 'react';
 
+import FacebookLogo from '../images/FacebookLogo.png';
+
 function Footer() {
   return (
     <footer>
@@ -38,7 +40,7 @@ function Footer() {
                   display: 'block',
                 }}
               >
-                <img alt="Facebook" src="img/fb_logo.png" />
+                <img alt="Facebook" src={FacebookLogo} />
               </a>
             </div>
           </div>

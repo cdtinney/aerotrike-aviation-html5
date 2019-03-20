@@ -3,6 +3,13 @@ import React from 'react';
 import DefaultLayout from '../layouts/DefaultLayout';
 import SEO from '../components/SEO';
 
+import Airborne from '../images/manufacturers/airborne.jpg';
+import NorthWing from '../images/manufacturers/north-wing.jpg';
+import LynxAvionics from '../images/manufacturers/lynx-avionics.png';
+import MicroAvionics from '../images/manufacturers/micro-avionics.jpg';
+
+import AirborneEdge from '../images/used-sales/2003_airborne_edge.jpg';
+
 import './styles/sales.css';
 
 const SalesPage = () => (
@@ -18,25 +25,25 @@ const SalesPage = () => (
           <div className="row">
             <div className="col-md-6 col-sm-3 col-xs-6 authorized-manufacturer">
               <a href="http://www.airborne.com.au/">
-                <img className="logo" src="img/manufacturers/airborne.jpg" alt="Airborne Australia" />
+                <img className="logo" src={Airborne} alt="Airborne Australia" />
               </a>
             </div>
 
             <div className="col-md-6 col-sm-3 col-xs-6 authorized-manufacturer">
               <a href="http://www.northwing.com">
-                <img className="logo" src="img/manufacturers/north-wing.jpg" alt="North Wing" />
+                <img className="logo" src={NorthWing} alt="North Wing" />
               </a>
             </div>
 
             <div className="col-md-6 col-sm-3 col-xs-6 authorized-manufacturer">
               <a href="http://www.lynx-avionics.com">
-                <img className="logo" src="img/manufacturers/lynx-avionics.png" alt="Lynx Avionics" />
+                <img className="logo" src={LynxAvionics} alt="Lynx Avionics" />
               </a>
             </div>
 
             <div className="col-md-6 col-sm-3 col-xs-6 authorized-manufacturer">
               <a href="http://www.microavionics.co.uk">
-                <img className="logo" src="img/manufacturers/micro-avionics.jpg" alt="MicroAvionics" />
+                <img className="logo" src={MicroAvionics} alt="MicroAvionics" />
               </a>
             </div>
           </div>
@@ -48,7 +55,7 @@ const SalesPage = () => (
               <span className="price">$17,000 CAD</span>
             </div>
             <div className="panel-body">
-              <img alt="airborne edge" className="thumbnail" src="img/used-sales/2003_airborne_edge.jpg" />
+              <img alt="airborne edge" className="thumbnail" src={AirborneEdge} />
               <span className="information">
                 <ul>
                   <li>

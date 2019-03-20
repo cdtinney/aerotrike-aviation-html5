@@ -1,7 +1,21 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withPrefix } from 'gatsby';
 
 export default function HTML(props) {
+  const scriptUrls = {
+    bootstrapCss:
+      withPrefix('vendor/bootstrap/css/bootstrap.min.css'),
+    bootstrapThemeCss:
+      withPrefix('vendor/bootstrap/css/bootstrap-theme.min.css'),
+    bootstrapJs:
+      withPrefix('vendor/bootstrap/js/bootstrap.min.js'),
+    mainCss:
+      withPrefix('css/main.css'),
+    paceJs:
+      withPrefix('vendor/pace/js/pace.min.js'),
+  };
+
   return (
     <html
       {...props.htmlAttributes}
@@ -14,9 +28,9 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href={scriptUrls.bootstrapCss} />
+        <link rel="stylesheet" href={scriptUrls.bootstrapThemeCss} />
+        <link rel="stylesheet" href={scriptUrls.mainCss} />
         <link
           href="https://fonts.googleapis.com/css?family=Raleway"
           rel="stylesheet"
@@ -43,10 +57,13 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
       </body>
-      <script src="vendor/modernizr/js/modernizr-2.8.3-respond-1.4.2.min.js" />
-      <script src="vendor/pace/js/pace.min.js" />
-      <script src="vendor/jquery/js/jquery-1.11.2.min.js" />
-      <script src="vendor/bootstrap/js/bootstrap.min.js" />
+      <script src={scriptUrls.paceJs} />
+      <script
+        src="http://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossOrigin="anonymous"
+      />
+      <script src={scriptUrls.bootstrapJs} />
     </html>
   )
 }

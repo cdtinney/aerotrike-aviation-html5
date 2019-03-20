@@ -76,7 +76,7 @@ export default function Navbar() {
             />
           </ul>
           <ul className="nav navbar-nav navbar-right">
-            <li><a href="contact">Contact Us</a></li>
+            <ListItemLink to="/contact" text="Contact Us" />
           </ul>
         </div>
       </div>

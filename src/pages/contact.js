@@ -3,6 +3,8 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import SEO from '../components/SEO';
 
+import FacebookLogo from '../images/FacebookLogo.png';
+
 const IndexPage = () => (
   <React.Fragment>
     <Navbar />
@@ -98,7 +100,7 @@ const IndexPage = () => (
                   display: 'block',
                 }}
               >
-                <img alt="Facebook" src="img/fb_logo.png" />
+                <img alt="Facebook" src={FacebookLogo} />
               </a>
             </div>
           </div>
