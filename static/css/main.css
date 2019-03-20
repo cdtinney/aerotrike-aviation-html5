@@ -1,9 +1,3 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
 @font-face {
   font-family: 'Sansation';
   src: url('../fonts/Sansation_Regular.ttf');
@@ -15,6 +9,11 @@ h1, h2, h3, h4, h5, .navbar {
 
 h3, h5 {
   font-weight: bold;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .navbar {
@@ -37,41 +36,41 @@ h3, h5 {
 
 /* Increases navbar collapse width from 768px to 991px */
 @media(max-width: 991px) {
-    .navbar-header {
-        float: none;
-    }
-    .navbar-toggle {
-        display: block;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
-    }
-    .navbar-nav {
-        float: none!important;
-        margin: 7.5px -15px;
-    }
-    .navbar-nav>li {
-        float: none;
-    }
-    .navbar-nav>li>a {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .navbar-text {
-        float: none;
-        margin: 15px 0;
-    }
-    /* since 3.1.0 */
-    .navbar-collapse.collapse.in {
-        display: block!important;
-    }
-    .collapsing {
-        overflow: hidden!important;
-    }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block!important;
+  }
+  .collapsing {
+    overflow: hidden!important;
+  }
 }
 
 @media(max-width: 991px) {
@@ -101,13 +100,13 @@ footer .contact-info-container, footer .contact-info-container > h5 {
 }
 
 #home__jumbotron {
-	background: url("../img/jumbotron.jpg") no-repeat center center;
-	background-size: cover;
+  background: url("../img/jumbotron.jpg") no-repeat center center;
+  background-size: cover;
 }
 
 #home__jumbotron h1 {
   font-size: 5rem;
-	color: rgba(255, 255, 255, 0.95);
+  color: rgba(255, 255, 255, 0.95);
 }
 
 #home__jumbotron p {

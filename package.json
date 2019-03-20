@@ -1,22 +1,46 @@
 {
   "name": "aerotrike-aviation",
-  "version": "0.1.0",
-  "description": "A small business website",
   "private": true,
+  "description": "Small business website",
+  "version": "0.1.0",
+  "author": "Colin Tinney <colintinney@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.2.1",
+    "gatsby-image": "^2.0.34",
+    "gatsby-plugin-react-helmet": "^3.0.10",
+    "gatsby-plugin-sharp": "^2.0.29",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "gatsby-transformer-remark": "^2.3.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "live-server"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cdtinney/aerotrike-aviation.git"
+    "url": "https://github.com/cdtinney/aerotrike-aviation"
   },
-  "author": "Colin Tinney <colintinney@gmail.com>",
-  "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/cdtinney/aerotrike-aviation/issues"
+    "url": "https://github.com/cdtinney/aerotrike-aviation"
   },
-  "homepage": "https://github.com/cdtinney/aerotrike-aviation#readme",
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "gatsby-plugin-eslint": "^2.0.4"
   }
 }
