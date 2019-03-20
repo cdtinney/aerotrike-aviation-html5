@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
+import JumbotronImage from '../images/JumbotronImage.png';
 import './styles/Jumbotron.css';
 
 function Jumbotron() {
@@ -11,13 +13,13 @@ function Jumbotron() {
             <h1><span>Ultralight flight training at its best.</span></h1>
             <p>Located in Peterborough, Ontario. Since 1999.</p>
             <p>
-              <a className="btn btn-primary btn-lg" href="about" role="button">
-                Learn more
-              </a>
+              <Link className="btn btn-primary btn-lg" to="/about">
+                Learn more &raquo;
+              </Link>
             </p>
           </div>
           <div className="jumbotron__image-container">
-            <img className="jumbotron__image" alt="jumbotron" src="img/jumbotron_image.png" />
+            <img className="jumbotron__image" alt="jumbotron" src={JumbotronImage} />
           </div>
         </div>
       </div>
