@@ -45,6 +45,8 @@ export default function HTML(props) {
       </body>
       <script src="vendor/modernizr/js/modernizr-2.8.3-respond-1.4.2.min.js" />
       <script src="vendor/pace/js/pace.min.js" />
+      <script src="vendor/jquery/js/jquery-1.11.2.min.js" />
+      <script src="vendor/bootstrap/js/bootstrap.min.js" />
     </html>
   )
 }
