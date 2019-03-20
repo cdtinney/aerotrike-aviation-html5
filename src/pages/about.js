@@ -54,7 +54,6 @@ const AboutPage = () => (
         </div>
       </div>
     </div>
-    <hr />
   </DefaultLayout>
 );
 

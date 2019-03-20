@@ -221,7 +221,6 @@ const TrainingPage = () => (
         </div>
       </div>
     </div>
-    <hr />
   </DefaultLayout>
 );
 
