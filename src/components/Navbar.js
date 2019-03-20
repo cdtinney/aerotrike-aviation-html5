@@ -58,13 +58,25 @@ export default function Navbar() {
               to="/about"
               text="About"
             />
-            <li><a href="./training.html">Training</a></li>
-            <li><a href="./gift-certificates.html">Gift Certificates</a></li>
-            <li><a href="./sales.html">Sales</a></li>
-            <li><a href="./gallery.html">Gallery</a></li>
+            <ListItemLink
+              to="/training"
+              text="Training"
+            />
+            <ListItemLink
+              to="/gift-certificates"
+              text="Gift Certificates"
+            />
+            <ListItemLink
+              to="/sales"
+              text="Sales"
+            />
+            <ListItemLink
+              to="/gallery"
+              text="Gallery"
+            />
           </ul>
           <ul className="nav navbar-nav navbar-right">
-            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
           </ul>
         </div>
       </div>
