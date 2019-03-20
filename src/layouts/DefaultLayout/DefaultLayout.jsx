@@ -11,6 +11,7 @@ export default function DefaultLayout({
     <div>
       <Navbar />
       {children}
+      <hr />
       <Footer />
     </div>
   );

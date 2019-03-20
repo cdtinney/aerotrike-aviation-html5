@@ -29,7 +29,6 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <hr />
   </DefaultLayout>
 );
 
