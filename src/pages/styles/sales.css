@@ -1,0 +1,8 @@
+.panel-body {
+  font-family: 'Crimson Text', Georgia, Times, serif;
+  font-size: 16px;
+}
+
+.used-sale > .thumbnail {
+  max-width: 128px;
+}
