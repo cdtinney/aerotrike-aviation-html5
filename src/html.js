@@ -41,7 +41,7 @@ export default function HTML(props) {
           rel="stylesheet"
           type="text/css"
         />
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
