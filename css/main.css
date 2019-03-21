@@ -100,7 +100,7 @@ footer .contact-info-container, footer .contact-info-container > h5 {
 }
 
 #home__jumbotron {
-  background: url("../img/jumbotron.jpg") no-repeat center center;
+  background: url("../img/JumbotronBackground.jpg") no-repeat center center;
   background-size: cover;
 }
 
