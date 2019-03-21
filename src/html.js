@@ -59,7 +59,7 @@ export default function HTML(props) {
       </body>
       <script src={scriptUrls.paceJs} />
       <script
-        src="http://code.jquery.com/jquery-2.2.4.min.js"
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
         crossOrigin="anonymous"
       />
