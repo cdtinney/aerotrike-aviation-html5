@@ -4,6 +4,7 @@ import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
 import DefaultLayout from '../layouts/DefaultLayout';
+import DefaultLayoutContent from '../layouts/DefaultLayoutContent';
 import SEO from '../components/SEO';
 
 const photos = [{
@@ -88,19 +89,15 @@ class GalleryPage extends PureComponent {
           onClickNext={this.goToNext}
           onClose={this.closeLightbox}
         />
-        <div className="container">
-          <div className="row">
-            <div className="col-md-10 col-md-offset-1">
-              <div id="gallery">
-                <Gallery
-                  photos={photosWithPrefixSrc}
-                  margin={5}
-                  onClick={this.openLightbox}
-                />
-              </div>
-            </div>
+        <DefaultLayoutContent>
+          <div id="gallery">
+            <Gallery
+              photos={photosWithPrefixSrc}
+              margin={5}
+              onClick={this.openLightbox}
+            />
           </div>
-        </div>
+        </DefaultLayoutContent>
       </DefaultLayout>
     );
   }

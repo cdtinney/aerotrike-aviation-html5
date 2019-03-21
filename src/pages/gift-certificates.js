@@ -5,6 +5,7 @@ import DefaultLayout from '../layouts/DefaultLayout';
 import SEO from '../components/SEO';
 
 import './styles/gift-certificates.css';
+import DefaultLayoutContent from '../layouts/DefaultLayoutContent';
 
 function Package({
   title,
@@ -58,50 +59,45 @@ Package.propTypes = {
 const GiftCertificatesPage = () => (
   <DefaultLayout>
     <SEO title="Gift Certificates" />
-    <div className="container">
-      <div className="row">
-        <div className="col-md-10 col-md-offset-1">
-          <h3>Flights</h3>
-          <p>All prices exclude applicable taxes.</p>
-          <p>
-            Gift certificates can also be purchased with payment via e-transfer.
-            <a href="mailto:montgomery@nexicom.net?subject=Gift%20Certificate%20Purchase"> E-mail us today!</a>
-          </p>
+    <DefaultLayoutContent>
+      <h3>Flights</h3>
+      <p>All prices exclude applicable taxes.</p>
+      <p>
+        Gift certificates can also be purchased with payment via e-transfer.
+        <a href="mailto:montgomery@nexicom.net?subject=Gift%20Certificate%20Purchase"> E-mail us today!</a>
+      </p>
 
-          <Package
-            title="10 Minute Introductory Flight"
-            cost="$50"
-            description="Experience the pure joy of flying in a two-seater, open air ultralight trike."
-            paypalId="E7UMBNUQ94HM6"
-          />
+      <Package
+        title="10 Minute Introductory Flight"
+        cost="$50"
+        description="Experience the pure joy of flying in a two-seater, open air ultralight trike."
+        paypalId="E7UMBNUQ94HM6"
+      />
 
-          <Package
-            title="30 Minute Discovery Flight"
-            cost="$90"
-            description="Learn basic control of the aircraft, and experience a
-              30 minute discovery flight over the Kawarthas."
-            paypalId="TCAW3VTBMV55J"
-          />
+      <Package
+        title="30 Minute Discovery Flight"
+        cost="$90"
+        description="Learn basic control of the aircraft, and experience a
+          30 minute discovery flight over the Kawarthas."
+        paypalId="TCAW3VTBMV55J"
+      />
 
-          <Package
-            title="60 Minute Orientation Flight"
-            cost="$145"
-            description="In a one hour flight, you will enjoy the beauty of the Kawarthas as never seen before. We can cruise over the Otonabee river at 2,000 feet, and fly the north shore of Rice Lake."
-            paypalId="WGQNMP6RA2X9N"
-          />
+      <Package
+        title="60 Minute Orientation Flight"
+        cost="$145"
+        description="In a one hour flight, you will enjoy the beauty of the Kawarthas as never seen before. We can cruise over the Otonabee river at 2,000 feet, and fly the north shore of Rice Lake."
+        paypalId="WGQNMP6RA2X9N"
+      />
 
-          <h3>Lessons</h3>
+      <h3>Lessons</h3>
 
-          <Package
-            title="5 Hours of Lessons"
-            cost="$700 (save $25!)"
-            description="Buy 5 hours in advance and save $25."
-            paypalId="FXP7L6XT6ZNKW"
-          />
-
-        </div>
-      </div>
-    </div>
+      <Package
+        title="5 Hours of Lessons"
+        cost="$700 (save $25!)"
+        description="Buy 5 hours in advance and save $25."
+        paypalId="FXP7L6XT6ZNKW"
+      />
+    </DefaultLayoutContent>
   </DefaultLayout>
 );
 
