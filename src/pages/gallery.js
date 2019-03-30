@@ -7,6 +7,8 @@ import DefaultLayout from '../layouts/DefaultLayout';
 import DefaultLayoutContent from '../layouts/DefaultLayoutContent';
 import SEO from '../components/SEO';
 
+import classes from './styles/gallery.module.css';
+
 const photos = [{
   src: 'img/gallery/1.jpg',
   width: 800,
@@ -79,7 +81,7 @@ class GalleryPage extends PureComponent {
     }));
 
     return (
-      <DefaultLayout>
+      <DefaultLayout className={classes.gallery}>
         <SEO title="Gallery" />
         <Lightbox
           images={photosWithPrefixSrc}

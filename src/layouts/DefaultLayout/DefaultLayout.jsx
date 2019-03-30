@@ -5,10 +5,11 @@ import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 
 export default function DefaultLayout({
+  className,
   children,
 }) {
   return (
-    <div>
+    <div className={className}>
       <Navbar />
       {children}
       <hr />
@@ -18,9 +19,11 @@ export default function DefaultLayout({
 }
 
 DefaultLayout.propTypes = {
+  className: PropTypes.string,
   children: PropTypes.node,
 };
 
 DefaultLayout.defaultProps = {
+  className: undefined,
   children: null,
 };
