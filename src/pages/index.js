@@ -29,7 +29,7 @@ const IndexPage = () => (
         <h2>Sales</h2>
         <p>Used and new aircraft and equipment available for purchase.</p>
         <p>
-          <Link className="btn btn-default" to="/sales">View listings&raquo;</Link>
+          <Link className="btn btn-default" to="/sales">View listings &raquo;</Link>
         </p>
       </div>
     </DefaultLayoutContent>
