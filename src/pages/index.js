@@ -14,23 +14,17 @@ const IndexPage = () => (
       <div className="col-md-4">
         <h2>Gift Certificates</h2>
         <p>Young and old will enjoy the gift of flight with a gift certificate. </p>
-        <p>
-          <Link className="btn btn-default" to="/gift-certificates">Get yours now &raquo;</Link>
-        </p>
+        <Link className="btn btn-primary" to="/gift-certificates">Get yours now</Link>
       </div>
       <div className="col-md-4">
         <h2>Training</h2>
         <p>Safe and comprehensive ultralight trike training.</p>
-        <p>
-          <Link className="btn btn-default" to="/training">Book lessons today &raquo;</Link>
-        </p>
+        <Link className="btn btn-primary" to="/training">Book lessons</Link>
       </div>
       <div className="col-md-4">
         <h2>Sales</h2>
         <p>Used and new aircraft and equipment available for purchase.</p>
-        <p>
-          <Link className="btn btn-default" to="/sales">View listings &raquo;</Link>
-        </p>
+        <Link className="btn btn-primary" to="/sales">View listings</Link>
       </div>
     </DefaultLayoutContent>
   </DefaultLayout>
