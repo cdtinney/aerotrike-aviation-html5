@@ -36,6 +36,11 @@ const photos = [{
 },
 ];
 
+const photosWithPrefixSrc = photos.map(photo => ({
+  ...photo,
+  src: withPrefix(photo.src),
+}));
+
 class GalleryPage extends PureComponent {
   state = {
     lightboxImgIndex: 0,
@@ -74,11 +79,6 @@ class GalleryPage extends PureComponent {
       lightboxImgIndex,
       lightboxOpen,
     } = this.state;
-
-    const photosWithPrefixSrc = photos.map(photo => ({
-      ...photo,
-      src: withPrefix(photo.src),
-    }));
 
     return (
       <DefaultLayout className={classes.gallery}>
