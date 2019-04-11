@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://aerotrikeaviation.com',
     title: 'Aerotrike Aviation',
     description: 'Ultralight flight training at its best.',
   },
