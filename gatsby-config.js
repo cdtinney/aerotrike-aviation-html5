@@ -4,6 +4,7 @@ module.exports = {
     description: 'Ultralight flight training at its best.',
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-eslint',
     'gatsby-plugin-react-helmet',
     {
