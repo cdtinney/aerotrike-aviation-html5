@@ -25,6 +25,16 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    'gatsby-plugin-sharp', {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-87415138-2',
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Anonymizes users and respects do-not-track
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
   ],
 };
