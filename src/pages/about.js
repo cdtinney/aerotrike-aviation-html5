@@ -46,7 +46,7 @@ const AboutPage = () => (
       <p>
         Flight training is conducted at
         <a href="https://www.peterboroughairport.com/">
-          Peterborough Municipal Airport.
+          &nbsp;Peterborough Municipal Airport.
         </a>
       </p>
     </DefaultLayoutContent>
