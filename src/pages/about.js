@@ -24,7 +24,7 @@ const AboutPage = () => (
       <p>
         Offering flight training since 1999, Cathy has always focused on teaching
         students how to fly trikes safely. Cathy takes students from the first
-        “introductory flight” to the issuance of the Ultralight Pilot Permit.
+        introductory flight to the issuance of the Ultralight Pilot Permit.
       </p>
 
       <h4>Certifications</h4>
