@@ -62,9 +62,11 @@ const GiftCertificatesPage = () => (
     <DefaultLayoutContent>
       <h3>Flights</h3>
       <p>All prices exclude applicable taxes.</p>
+      <p>Gift certificates can also be purchased with payment via e-transfer.</p>
       <p>
-        Gift certificates can also be purchased with payment via e-transfer.
-        <a href="mailto:montgomery@nexicom.net?subject=Gift%20Certificate%20Purchase"> E-mail us today!</a>
+        <a href="mailto:montgomery@nexicom.net?subject=Gift%20Certificate%20Purchase">
+        E-mail us today to order one.
+        </a>
       </p>
 
       <Package
