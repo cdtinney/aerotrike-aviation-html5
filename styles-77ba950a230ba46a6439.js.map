@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/pages/styles/gallery.module.css"],"names":["module","exports","gallery"],"mappings":"6EACAA,EAAAC,QAAA,CAAkBC,QAAA","file":"styles-77ba950a230ba46a6439.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"gallery\":\"gallery-module--gallery--3es3z\"};"],"sourceRoot":""}
