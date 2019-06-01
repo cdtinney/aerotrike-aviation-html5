@@ -37,10 +37,6 @@ const TrainingPage = () => (
                 <td>$700 (save $25!)</td>
               </tr>
               <tr>
-                <td>Set-up, inspection, and test flight with student-owned aircraft</td>
-                <td>$300</td>
-              </tr>
-              <tr>
                 <td>Flight Test for Instructors Rating</td>
                 <td>$500</td>
               </tr>
@@ -149,7 +145,7 @@ const TrainingPage = () => (
               Flight training times specified are minimums required
               by Transport Canada. Realistically,
               <b> 20 to 25 hours </b>
-              will be required by Aerotrike Aviation
+              will be required by Aerotrike Aviation.
             </li>
           </ul>
         </div>
