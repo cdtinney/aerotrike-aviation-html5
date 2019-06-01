@@ -17,7 +17,11 @@ const ContactPage = () => (
     <DefaultLayoutContent>
       <div className="row">
         <div className="col-md-6 col-sm-6">
-          <h3>Get in touch</h3>
+          <h3>
+            {'Have a question that isn\'t covered by the'}
+            <a href="/faq"> FAQ</a>
+            ? Get in touch!
+          </h3>
           <p>Want to book lessons? Buy a gift certificate? Learn more about flying? </p>
           <p>Call, e-mail, or visit us today.</p>
         </div>
