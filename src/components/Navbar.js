@@ -76,6 +76,10 @@ export default function Navbar() {
             />
           </ul>
           <ul className="nav navbar-nav navbar-right">
+            <ListItemLink
+              to="/faq"
+              text="FAQ"
+            />
             <ListItemLink to="/contact" text="Contact Us" />
           </ul>
         </div>
