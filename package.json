@@ -28,8 +28,8 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
+    "dev": "gatsby develop",
+    "start": "npm run dev",
     "serve": "gatsby serve"
   },
   "repository": {

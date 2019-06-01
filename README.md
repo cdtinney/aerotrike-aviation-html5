@@ -50,7 +50,7 @@ $ npm install
 To run a development server with live-reload (and linting):
 
 ```
-$ npm run develop
+$ npm run dev
 ```
 
 ### Building
