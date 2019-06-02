@@ -44,8 +44,8 @@ const FaqPage = () => (
 
       <h3>How much does a trike cost?</h3>
       <p>
-        On average, a used trike costs between $20,000 - $35,000 CAD depending on,
-        among other factors, condition, age of wing, and engine size.
+        On average, a used trike costs between $20,000 - $35,000 CAD depending on --
+        &nbsp;among other factors -- condition, age of wing, and engine size.
         A new trike will cost over $45,000 CAD.
       </p>
 
