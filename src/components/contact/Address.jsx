@@ -11,7 +11,7 @@ function Address() {
         <br />
         925 Airport Road
         <br />
-        Peterborough, ON K9J 6X6
+        Peterborough, ON K9J 0E7
         <br />
       </div>
     </React.Fragment>
