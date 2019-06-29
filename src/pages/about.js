@@ -33,7 +33,7 @@ const AboutPage = () => (
         <li>Transport Canada Authorized Person</li>
         <li>
           Flight Test Examiner - Endorsement of the Ultralight Pilot
-          Permit with an Instructor Rating and/or Passenger Carrying Rating
+          Permit with an Instructor Rating
         </li>
       </ul>
 
