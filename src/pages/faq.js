@@ -19,7 +19,7 @@ const FaqPage = () => (
       <p>
         Due to engineering restrictions, the maximum weight for an individual is 225 pounds
         (102 kilograms).
-        <b> Strong upper body strength</b>
+        <b> Strong upper body strength </b>
         is required in order to operate the controls safely.
         <b> In addition, you should be able to pass a standard physical exam.</b>
       </p>
