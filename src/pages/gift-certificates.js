@@ -78,7 +78,7 @@ const GiftCertificatesPage = () => (
 
       <Package
         title="30 Minute Discovery Flight"
-        cost="$90"
+        cost="$95"
         description="Learn basic control of the aircraft, and experience a
           30 minute discovery flight over the Kawarthas."
         paypalId="TCAW3VTBMV55J"
